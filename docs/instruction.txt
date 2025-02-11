@@ -1,0 +1,26 @@
+Objective: To create a mobile application using Flutter that allows users to manage a list of tasks. 
+Users should be able to add, view, update, and delete tasks. 
+
+The application should follow the 
+MVVM architecture pattern and utilize a local SQLite database for data storage.
+Requirements:
+
+User Interface:
+• Design a user-friendly interface for managing tasks.
+• Provide a form to add new tasks.
+• Allow users to edit and delete existing tasks.
+• Display the list of tasks using a ListView or GridView.
+
+Architecture:
+• Follow the MVVM (Model-View-ViewModel) architecture pattern.
+• Ensure separation of concerns by keeping UI code in the View, business logic in the ViewModel, and data access in the Repository.
+• Implement a repository layer between the ViewModel and the database helper.
+• Implement state management using a suitable package (e.g., Provider, Riverpod).
+
+Data Storage:
+• Use SQLite for local data storage.
+• Implement a repository pattern for data access using a package like sqflite.
+
+Technologies:
+• Flutter, Dart, sqflite package for SQLite, provider or any other state management 
+package
